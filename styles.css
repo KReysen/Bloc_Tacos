@@ -1,0 +1,121 @@
+html {
+  background: #48d3dd;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  font-family: 'Indie Flower' , cursive;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 2%;
+} 
+
+main {
+  display: flex;
+  height: 700px;
+}
+
+#column-1 {
+  float: left;
+  width: 20%;
+  padding-right: 3%;
+  border: solid;
+  white-space: pre-wrap;
+  background-color: #e4eb84;
+  font-family: 'Indie Flower' , cursive;
+  text-align: left; 
+}
+
+
+aside a {
+color: black;
+}
+
+a:hover {
+  background-color: white;
+  padding: 1px 4px 1px 4px;
+}
+
+#column-2 {
+  width: 80%;
+  border: solid;
+  font-family: 'PT Sans Narrow' , sans-serif;
+  background-color: #f69e75;
+}
+
+#column-2 h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+section{
+}
+
+table {
+  border: 3px solid black;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+tr {
+height: 20px;
+}
+
+tr, td {
+  border-left: 2px solid black;
+  border-collapse: collapse;
+  padding: 3px
+}
+#tabhead th{
+  background-color:grey;
+  text-align: left;
+  border: 2px solid black;
+  padding: 3px
+}
+tr:nth-child(even) {
+  background-color: #dbdbdb;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Indie Flower' , cursive;
+  padding: 1%;
+  background-color: white;
+}
+
+footer h3 {
+  display:inline;
+}
+
+img {
+  display: none;
+}
+#firsttaco {
+  float: left;
+  padding-left: 10px;
+}
+
+#secondtaco {
+  float: right;
+  padding-right: 10px;
+}
+footer:hover {
+  background-color: #48d3dd;
+}
+footer:hover img {
+  display: block;
+}
